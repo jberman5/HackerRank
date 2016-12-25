@@ -1,0 +1,7 @@
+n = int(input())
+var = set(map(int, input().split()))
+total = sum(var)
+count = len(var)
+#print(total)
+#print(count)
+print(total/count)
